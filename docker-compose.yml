@@ -3,6 +3,6 @@ services:
   Amdocs:
     build:
       context: .
-    image: dockercompose:${BUILD_NUMBER}
+    image: dockercompose
     ports:
       - "8085:80"
